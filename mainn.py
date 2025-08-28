@@ -24,3 +24,4 @@ length = int(input("Enter desired total password length: "))
 # Generate password
 password = generate_password(base_word, birth_year, favorite_symbol, length)
 print(f"\nYour new password is: {password}")
+
